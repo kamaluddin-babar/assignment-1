@@ -1,0 +1,160 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu-bar{
+    height: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid gray;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
+}
+.orange-highlight{
+    color:orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 90%;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+.top-banner{
+    height: 500px;
+    padding-bottom: 150px;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.name-container{
+    width: 63%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.about-area{
+    background-color: azure;
+}
+.work-project{
+    background-color: #F8F9FC;
+    height: 600px;
+}
+.work-project-heading{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+.single-project-container{
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.single-project{
+    width: 27%;
+    height: 400px;
+    float: left;
+    margin-right: 2%;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px lightgray;
+}
+.single-project img{
+    width: 100%;
+    border-radius: 15px;
+}
+.bottom-area{
+    height: 370px;
+}
+.chat-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    width: 60%;
+    height: 200px;
+    background-image: url(shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100% 200px;
+}
+#work-inquary{
+    padding-top: 40px;
+    color: white;
+}
+#chat-block{
+    padding-top: 90px;
+}
+#chat-button{
+
+    margin-left: 255px;
+}
+.bottom-ref h3{
+    text-align: center;
+    color: dimgray;
+    padding-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.bottom-ref h2{
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.icon-block{
+    padding-left: 43%;
+    margin-top: 0;
+    padding-top: 0;
+}
+.icon-block img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    padding-top: 0;
+    padding-right: 26px;
+}
+
+
+
+ul{
+    margin: 0;
+    padding-left: 70%;
+    padding-bottom: 0;
+    overflow: hidden;
+    
+}
+ul li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 30px; 
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    text-align: center;
+    
+}
