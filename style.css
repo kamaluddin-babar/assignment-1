@@ -7,7 +7,7 @@ body{
     height: 50px;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border: 1px solid gray;
+/*    border: 1px solid gray; */
 }
 h1{
     font-size: 50px;
@@ -55,11 +55,15 @@ section{
 
 }
 .about-area{
-    background-color: azure;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    
 }
 .work-project{
     background-color: #F8F9FC;
     height: 600px;
+    margin: 0;
 }
 .work-project-heading{
     width: 100%;
@@ -81,9 +85,14 @@ section{
     background-color: white;
     box-shadow: 1px 1px 10px lightgray;
 }
+
 .single-project img{
     width: 100%;
     border-radius: 15px;
+    
+}
+#special-border{
+    border-left: 1px solid gray;
 }
 .bottom-area{
     height: 370px;
@@ -137,6 +146,9 @@ section{
     padding-top: 0;
     padding-right: 26px;
 }
+.latest-highlight{
+    color: #F46060;
+}
 
 
 
@@ -149,12 +161,63 @@ ul{
 }
 ul li{
     display: inline-block;
-    padding-right: 20px;
-    padding-top: 30px; 
+    padding-right: 40px;
+    padding-top: 20px; 
     position: relative;
 }
 ul li a{
     text-decoration: none;
     text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(26, 38, 46);
     
+}
+ul li a:hover{
+    color:purple;
+}
+
+.skill-area{
+    background-color: #101010;
+    height: 700px;
+}
+.skill-area h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+.skill-list{
+    width: 80%;
+    border-bottom: 1px solid rgb(59, 58, 58);
+    padding: 20px 40px;
+    background-color: #161616;
+    margin-top: 0;
+    
+}
+.skill-list h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+}
+.skill-list h3{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.skill-list p{
+    margin: 0;
+    padding: 5px 0px;
+}
+.b-left{
+    border-left: 5px solid rgb(4, 129, 67);
+}
+#full-stack h2{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 30px;
+    color: whitesmoke;
 }
